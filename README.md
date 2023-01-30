@@ -1,6 +1,35 @@
 # Gravity-model
 
 # Résultats:
+
+## Statistiques descriptives 
+![image](https://user-images.githubusercontent.com/123311478/215504610-9d5d6cbd-6947-467b-af4d-b938532a812c.png)
+
+Le prix moyen sur la période étudié (1970-1999) d’un véhicule est de 8352,52 en monnaie
+unique. Les modèles de voiture commercialisé réalisaient en moyenne 19813,24 ventes en une
+année.
+
+![image](https://user-images.githubusercontent.com/123311478/215504765-4ccf7407-7cac-478b-a0f7-275f8d8bdbdc.png)
+
+Le prix moyen d’un véhicule de 1970 à 1993 était de 7005,66 ECU (monnaie unique) en
+moyenne. Le modèle le moins cher était la Fiat 500/600 vendu sur le marché italien en 1970.
+Le modèle le plus cher de notre échantillon était quant à lui la Honda legend vendu sur le
+marché belge lors de l’année 1991.
+Concernant les ventes, un modèle se vendait en moyenne 19782 fois sur une année avant la
+mise en place du marché unique. Le modèle le plus vendu sur un marché sur une année lors de
+cette période était la Fiat uno vendu sur le marché Italien en 1986.
+
+![image](https://user-images.githubusercontent.com/123311478/215504871-55311017-55ab-471d-bdf1-6d35bc8ab020.png)
+
+Un véhicule se vendait en moyenne 12911 ECU après la mise en place du marché unique. Le
+modèle le moins cher était la Seat Marbella de 1994 qui se vendait 3927 en monnaie unique et
+également sur le marché italien. Le véhicule le plus cher était l’Audi a8 du marché italien en
+1998. Nous pouvons remarquer que l’étendu ainsi que la dispersion du prix exprimé en
+monnaie unique est plus grande après 1993. Cela peut s’expliquer par des prix plus élevés
+ainsi que par une segmentation plus forte du marché dû à la course à la différentiation
+
+
+
 ![image](https://user-images.githubusercontent.com/123311478/215502955-fa1450cd-4867-43ea-82da-4a60b2546531.png)
 
 
@@ -8,6 +37,11 @@
 
 ![image](https://user-images.githubusercontent.com/123311478/215503038-88440c59-1c19-42f6-a76e-14a1d155a079.png)
 
+On peut voir ci-dessus les coefficients de corrélations entre les variables évoqués
+précédemment et le prix. La variable la plus corrélé avec le prix est la puissance du véhicule
+
+
+## Le modèle
 
 Nous allons tout d’abord nous intéresser aux variables d’intérêt de notre modèle, c’est-à-dire
 les variables qui font l’objet de notre étude. Dans notre cas ce sont les indicatrices pays avant
@@ -28,13 +62,14 @@ véhicule soit une voiture domestique à une influence sur le pays. Nous utiliso
 l’indicatrice d’année pour avoir l’effet du temps sur le prix.
 Nous allons effectuer une régression linéaire sur notre modèle par la méthode des moindres
 carrées ordinaire. Voici les résultats de cette modélisation :
+
 ![image](https://user-images.githubusercontent.com/123311478/215503288-0dd23a30-5bf5-4e77-8fa7-dc221366799a.png)
 
 ![image](https://user-images.githubusercontent.com/123311478/215503477-3138f9ea-e012-407d-a94a-a740c5a12e25.png)
 
 ![image](https://user-images.githubusercontent.com/123311478/215503548-c6e106a7-1d51-4150-8f17-73f290e1a42b.png)
 
-## Le modèle
+- Le modèle
 
 Nous avons donc ici un modèle qui comporte 11547 observations. Le R carré de notre modèle
 est de 0.7624 c’est-à-dire que 76.24% de la variance du log du prix en monnaie unique est
