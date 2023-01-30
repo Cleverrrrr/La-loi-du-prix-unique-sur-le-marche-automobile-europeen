@@ -1,5 +1,6 @@
 # Loi du prix unique
 
+Ce projet examine la conformité de la loi du prix unique pour les automobiles sur le marché européen. Il utilise des techniques d'analyse de données pour vérifier si les prix sont uniformes dans les différents pays de l'UE. Les résultats peuvent aider à comprendre la concurrence sur le marché automobile européen.
 # Résultats:
 
 ## Statistiques descriptives 
