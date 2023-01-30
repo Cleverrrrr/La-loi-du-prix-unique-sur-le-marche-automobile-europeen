@@ -1,4 +1,4 @@
-# Gravity-model
+# Loi du prix unique
 
 # Résultats:
 
